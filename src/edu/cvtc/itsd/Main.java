@@ -291,6 +291,12 @@ public class Main {
     labelState.setForeground(Color.magenta);
     panelStatus.add(labelState);
 
+    JButton closeButton = new JButton("Close");
+    closeButton.setAlignmentX(JComponent.CENTER_ALIGNMENT);
+    closeButton.addActionListener(handler);
+    closeButton.setForeground(Color.green);
+    panelStatus.add(closeButton);
+
     panelStatus.add(Box.createVerticalGlue());
 
     // Error panel ////////////////////////////////////////////////////////////
