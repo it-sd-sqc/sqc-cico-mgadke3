@@ -80,3 +80,10 @@ Use `./build.sh` to build CiCo and `./run.sh` to run it if using the command lin
 ## Expected results
 * Should say checked in, with a 10 second pause before it goes back to the first menu, and no way to speed up or skip the pause
 
+# Module 6: 
+1. Build and run CiCo
+2. Enter 00000000 into the field and click update
+
+## Expected results
+* Should require you to press update to display that you're checked in, with no way to trigger that other than pressing update
+
