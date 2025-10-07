@@ -55,10 +55,6 @@ public class Main {
         throws BadLocationException
     {
       if (fb.getDocument() != null) {
-        if (fb.getDocument().getLength() == MAX_LENGTH - 1) {
-          super.replace(fb, offset, lengthToDelete, stringToAdd, attr);
-          Main.processCard();
-        }
         if (fb.getDocument().getLength() != MAX_LENGTH) {
           super.replace(fb, offset, lengthToDelete, stringToAdd, attr);
         }
