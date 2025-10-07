@@ -65,10 +65,11 @@ Use `./build.sh` to build CiCo and `./run.sh` to run it if using the command lin
 
 ## Test steps
 1. Build and run CiCo.
-2. Enter 000000000 into the field and click update
+2. Enter 000000009 into the field
 
 ## Expected results
 * Should display an error
+* The 9 should not show as the input exceeded 8 characters
 
 # Module 5: Pull Requests & Forking
 
@@ -85,3 +86,4 @@ Use `./build.sh` to build CiCo and `./run.sh` to run it if using the command lin
 
 ## Expected results
 * Should require you to press update to display that you're checked in, with no way to trigger that other than pressing update
+
